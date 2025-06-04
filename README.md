@@ -93,8 +93,11 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
       4. Save and restart Klipper.
 5. Do [E-step calibration](https://www.klipper3d.org/Rotation_Distance.html) and start printing!
 
-## 🔨 References
+## 🔨 Resources
 
-- [SKR Mini E3 pinout](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf)
-- [SKR Mini E3 Klipper config](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/firmware/V3.0/Klipper/SKR-mini-E3-V3.0-klipper.cfg)
+- [SKR Mini E3 V3 pinout](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf)
+- [SKR Mini E3 V3 Klipper config](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/firmware/V3.0/Klipper/SKR-mini-E3-V3.0-klipper.cfg)
+- [SKR Mini E3 V3 Manual](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20SKR%20MINI%20E3%20V3.0%20user%20manual.pdf).
+- [SKR MINI E3 V3: Analysis and complete guide of this new electronic board revision](https://3dwork.io/en/skr-mini-e3-v3/)
 - [CR-10 V3 Klipper config](https://github.com/Klipper3d/klipper/blob/master/config/printer-creality-cr10-v3-2020.cfg)
+
