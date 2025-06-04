@@ -1,7 +1,7 @@
 # Upgrade CR-10 V2/V3 to Klipper with an SKR Mini E3 V3 motherboard
 This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard into your Creality CR-10 V2 or CR-10 V3 3D printer, enabling the use of Klipper firmware.
 
-## Why would anyone want to do this?
+## 🎉 Why would anyone want to do this?
 
 1: Easier Stepper Driver Control: The Creality 2.5.2 motherboard's TMC2208 stepper drivers are wired in standalone mode, meaning you have to physically open the controller box and adjust potentiometers for any changes. The SKR Mini allows you to control its TMC2209 stepper drivers directly from the firmware via UART, making adjustments much simpler.
 
