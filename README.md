@@ -51,7 +51,7 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
    - For each axis (X, Y, Z) where you want to enable sensorless homing, you'll need to place a jumper on the corresponding pins .
    - Onboard 5V step-down module or external 5V power supply.
    - USB Power (recommended to remove this jumper to prevent the undervoltage warnings).
-2. Create the BL Touch adapter using a jumper wire and a BL-Touch cable.
+2. Create the [BL Touch adapter](https://github.com/K-K-K-K-K-K-K-K-K/CR10-V3-SKR-Mini-E3V3-Conversion/blob/main/Wiring%20Diagram%20and%20References.pdf) using a jumper wire and a BL-Touch cable.
 3. Combine two control box fans into a single xh2.54 JST 2-pins male connector, wire them in parallel.
 4. Cut off the extruder heater's connector, as the SKR Mini E3 V3.0 uses screw terminals.
 5. Everything else is plug and play!
@@ -68,7 +68,7 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
    5. The Klipper firmware should be successfully installed on SKR Mini E3 V3. The firmware.bin file on the SD card will likely be renamed to firmware.cur after a successful flash.
 2. Install Raspbian and Klipper on the Raspberry Pi with [KIUAH](https://github.com/dw-0/kiauh)
 3. Install Printer Configuration File
-   1. Rename printer_creality-cr10-v3-SKR-mini-E3-V3.0.cfg to printer.cfg and put it in your config folder.
+   1. Rename [printer_creality-cr10-v3-SKR-mini-E3-V3.0.cfg](https://github.com/K-K-K-K-K-K-K-K-K/CR10-V3-SKR-Mini-E3V3-Conversion/blob/main/printer_creality-cr10-v3-SKR-mini-E3-V3.0.cfg) to printer.cfg and put it in your config folder.
    2. Put printer.cfg in your config folder via a web interface (Fluid/Mainsail) or SFTP. The config folder location is:
    ```Bash
    ~/printer_data/config/
