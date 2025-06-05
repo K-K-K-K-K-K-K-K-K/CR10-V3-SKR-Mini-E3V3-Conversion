@@ -7,7 +7,7 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
 
 2: Advanced Features: The newer TMC2209 drivers on the SKR Mini support advanced Klipper features like [linear advance](https://help.prusa3d.com/article/linear-advance_2252) and [sensorless homing](https://all3dp.com/2/klipper-sensorless-homing-simply-explained/), the first one can improve print quality, and the latter is a learning experience for your future printer builds.
 
-3: Wider Community Support: The SKR Mini is a popular upgrade for Ender 3 printers and is used in VORON Design's [Voron V0](https://docs.vorondesign.com/build/electrical/v0_miniE3_v30_wiring.html). This means a much larger community and more readily available documentation and support compared to the less common Creality 2.5.2 board, which I dare you to try to Google search for pinout and wiring diagram.![Screenshot of my application](images/252-1.jpg)
+3: Wider Community Support: The SKR Mini is a popular upgrade for Ender 3 printers and is used in VORON Design's [Voron V0](https://docs.vorondesign.com/build/electrical/v0_miniE3_v30_wiring.html). This means a much larger community and more readily available documentation and support compared to the less common Creality 2.5.2 board, which I dare you to try to Google search for pinout and wiring diagram.
 
 4: Quieter Operation: The Creality 2.5.2 board wires the hotend and controller box fans directly to the power supply, so they're always on. The SKR Mini has three controllable fan headers, allowing you to manage control box, heatblock, and part cooling fan speeds via firmware. Additionally, the TMC2209 drivers can be set to StealthChop mode for even quieter printing.
 
@@ -43,8 +43,13 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
 - Cable tiles
 - Small wires for fans
 - Heat shrinks
-
-
+- 
+## 🔧 Wiring Diagrams
+### Creality 2.5.2
+![Screenshot of my application](images/252-1.jpg)
+### SKR Mini E3 V3
+![Screenshot of my application](images/skr-1.png)
+![Screenshot of my application](images/skr-3.png)
 ## 🔧 Hardware Setup
 1. Configure jumper pins on SKR Mini E3 V3.0.
    - [User manual](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20SKR%20MINI%20E3%20V3.0%20user%20manual.pdf).
@@ -58,7 +63,6 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
    - The 12864 LCD only uses a single cable to the EXP3 header.
    - The X+ header is the filament sensor.
    - The Z+ header and D11 jumper pin are the BL Touch wires.
-![Screenshot of my application](images/skr-1.png)![Screenshot of my application](images/skr-3.png)
 ## 🔧 Software Setup
 1. Install Klipper Firmware on SKR Mini E3 V3.
    1. Download firmware-USB.bin from [here](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/firmware/V3.0/Klipper/firmware-USB.bin)
