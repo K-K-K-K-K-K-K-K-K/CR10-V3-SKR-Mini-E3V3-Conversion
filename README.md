@@ -50,13 +50,15 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
 ### SKR Mini E3 V3
 ![Screenshot of my application](images/skr-1.png)
 ![Screenshot of my application](images/skr-3.png)
+### BL Touch Adapter
+![Screenshot of my application](images/bltouch-1.png)
 ## 🔧 Hardware Setup
 1. Configure jumper pins on SKR Mini E3 V3.0.
    - [User manual](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20SKR%20MINI%20E3%20V3.0%20user%20manual.pdf).
    - For each axis (X, Y, Z) where you want to enable sensorless homing, you'll need to place a jumper on the corresponding pins .
    - Onboard 5V step-down module or external 5V power supply.
    - USB Power (recommended to remove this jumper to prevent the undervoltage warnings).
-2. Create the [BL Touch adapter](Wiring%20Diagram%20and%20References.pdf) using a jumper wire and a BL-Touch cable.![Screenshot of my application](images/IMG_1460.JPG)
+2. Create the [BL Touch adapter](Wiring%20Diagram%20and%20References.pdf) using a jumper wire and a BL-Touch cable.![Screenshot of my application](images/IMG_1459.JPG)
 3. Combine two control box fans into a single xh2.54 JST 2-pins male connector, wire them in parallel.
 4. Cut off the extruder heater's connector, as the SKR Mini E3 V3.0 uses screw terminals.
 5. Everything else is plug and play!![Screenshot of my application](images/IMG_1463.JPG)
