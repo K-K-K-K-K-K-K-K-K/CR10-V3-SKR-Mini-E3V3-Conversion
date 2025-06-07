@@ -99,6 +99,11 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
       4. Save and restart Klipper.
 5. Do [E-step calibration](https://www.klipper3d.org/Rotation_Distance.html) and start printing!
 
+## 🔨 What to do next?
+- [Adding a simple relay to control light](https://makeandcreate.de.cool/en/3d-printer-light-with-klipper/)(Remember to use 3.3V Relay module and wired V_in to 3v3)
+- [Wiring a ADXL345 directly to SKR mini](https://github.com/klich3/klipper---adxl345-skr-mini-e3-v3.0)
+- [Upgrade that horrible extruder to something repair-friendly with superior cooling.](/Hero%20Me%207%20CR-10v3.txt)
+
 ## 🔨 Resources
 
 - [SKR Mini E3 V3 pinout](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf)
