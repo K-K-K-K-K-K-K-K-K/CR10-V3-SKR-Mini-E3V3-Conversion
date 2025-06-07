@@ -1,0 +1,16 @@
+Official parts
+https://www.printables.com/model/39322-hero-me-gen7-platform-release4
+HMG7.2 Universal Base V2
+HMG7 CR-10 V2-V3 Gantry Adapter
+HMG7 E3D-Online Titan Left Mount
+HMG7 All Collar Mounts 1mm Spacer
+HMG7 E3D V6-Revo Six-Dragonfly BMO Collar Skirt V2
+HMG7.3 E3D V6 Revo Six-Dragonfly BMO Collar Mount V3
+HMG7 Cable Tower Tall Right 10mm
+HMG7 Duct Offset Check v5
+
+Custom parts
+https://www.printables.com/model/1310623-hero-me-7-hmg74-single-5015-6deg-adxl-dual-duct-fi
+https://www.printables.com/model/1316487-hero-me-7-bondtech-bmg-sidemount // for BMG Conversion
+https://www.printables.com/model/1320532-cr-10-v3-filament-sensor-mount-for-bondtech-bmg // Sensor mount for BMG
+https://www.printables.com/model/1316485-hero-me-7-4020-fan-offset // for 4020 fan upgrade
