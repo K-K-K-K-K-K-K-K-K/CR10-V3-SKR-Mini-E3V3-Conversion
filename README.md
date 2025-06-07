@@ -79,7 +79,7 @@ This guide details how to install the BigTreeTech SKR Mini E3 V3.0 motherboard i
    ```Bash
    ~/printer_data/config/
    ```
-  printer_data/config/
+
 4. Configure MCU ID
    1. Find MCU ID.
       1. Connect the SKR Mini E3 V3 board to the Raspberry Pi using a USB cable.
